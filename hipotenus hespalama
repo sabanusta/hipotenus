@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+  class Main {
+
+  public static void main( String[] args) {
+    int a, b ;
+     double  hipotenus;
+    
+    Scanner input1= new Scanner(System.in ) ;
+    System.out.println("a kenarının uzunluğunu giriniz");
+    a = input1.nextInt ();
+    
+    Scanner input2= new Scanner(System.in ) ;
+    System.out.println("b kenarının uzunluğunu giriniz");
+    b = input2.nextInt ();
+
+    hipotenus= Math.sqrt((a*a)+(b*b));
+    
+    
+    
+      
+     System.out.println(hipotenus);
+    
+    
+
+    }
+
+}
